@@ -124,4 +124,5 @@ Un fichier `*.class` est créé.
 
 On exécute toujours la fonction principale.
 
-> [!NOTE] S'il y a un problème, il est possible de stopper l'exécution avec : `ctrl` + `c`.
+> [!NOTE] 
+> S'il y a un problème, il est possible de stopper l'exécution avec : `ctrl` + `c`.
