@@ -9,7 +9,7 @@
 | int | Integer | 4 octets | [-2 147 483 648, 2 147 483 647] |
 | long | Long | 8 octets | [-2<sup>63</sup>, 2<sup>63</sup> - 1] |
 | float | Float | 4 octets | [1,4 × 10<sup>-45</sup>, 3,4 × 10<sup>38</sup>] |
-| double | Double | 8octets | [4,9 × 10<sup>-324</sup>, 1,7 × 10<sup>308</sup>, ] |
+| double | Double | 8octets | [4,9 × 10<sup>-324</sup>, 1,7 × 10<sup>308</sup>] |
 |  | String |  |  |
 
 > [!NOTE]
