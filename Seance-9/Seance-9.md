@@ -36,7 +36,7 @@ Il existe de nombreuses méthodes pour comparer deux chaînes de caractères.
 
 - `equals()` teste l'égalité entre deux chaînes de caractères.
 
-	s1.equals(s2);
+		s1.equals(s2);
 
 - `compareTo()` teste la différence des caractères à partir de leur nombre ASCII.
 
