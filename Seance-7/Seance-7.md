@@ -15,6 +15,9 @@ On peut aussi écrire :
 Exemple d'un tableau (d'entiers) directement initialisé
 
 	init[] tab = {0, 1, 2, 3, ...}
+
+> [!NOTE]
+> La notation `int... tab` permet de déclarer plusieurs variables de type `int` et de les récupérer sous la forme d'un tableau.
 	
 ## Parcourir un tableau
 
