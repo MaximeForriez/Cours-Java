@@ -2,6 +2,7 @@
 
 - L'importation préalable d'une ressource de `Java` permet d'éviter d'alourdir le code. Il faut bien comprendre :
 
+```
 	import java.util.*;
 	
 	public class ...
@@ -15,9 +16,11 @@
 		...
 	
 	}
+```
 
 équivaut strictement à :
 
+```
 	import java.util.*;
 	
 	public class ...
@@ -31,6 +34,7 @@
 		...
 	
 	}
+```
 
 C'est ce que l'on appelle l'**importation statique**.
 

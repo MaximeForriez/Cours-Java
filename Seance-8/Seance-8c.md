@@ -12,6 +12,7 @@ Ils prennent tout leur sens dans le cadre du principe informatique d'encapsulati
 
 Exemple.
 
+```
 	private expirationAnnee;
 	
 	//Constructeur à définir
@@ -35,6 +36,7 @@ Exemple.
 		return this.expirationAnnee = expiration;
 	
 	}
+```
 
 > [!NOTE]
 > Les accesseurs permettent de modifier une fois le code et une seule, et d'en obtenir des répercussions partout dans le programme.
@@ -47,8 +49,10 @@ Les **variables de classe** n'appartiennent à aucune instance particulière. Ce
 
 Exemple.
 
+```
 	private static int nombreEnregistrement = 5;
-	
+```
+
 Le modificateur `static` indique qu'il s'agit d'une variable de classe.
 
 Elles sont communes à toutes les instances créées. Si l'une la ou les modifie, l'autre la ou les récupère avec sa modification. La variable n'est pas réinitialisée.
@@ -66,29 +70,3 @@ Dans le cas d'une variable de classe, les objets créés par cette classe utilis
 
 > [!NOTE]
 > L'appel d'une variable de classe dans une autre classe s'effectue bien entendu par un `getter` avec une méthode de classe. Elle est appelée par `nomClasse.nomVariable()`.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -28,7 +28,9 @@ Il existe plusieurs conventions pour nommer les variables :
 
 ## Affectation des variables
 
+```
 	private int ageUtilisateur = 0;
+```
 
 `int` : type (déclaration de la variable)
 
@@ -42,11 +44,15 @@ Il existe plusieurs conventions pour nommer les variables :
 
 Pour fermer une variable :
 
+```
 	nomVariable.close()
+```
 
 Pour afficher une variable :
 
+```
 	System.out.println(ageUtilisateur);
+```
 
 > [!NOTE]
 > Par défaut, toute variable numérique est transformée en texte par cette méthode.
@@ -94,8 +100,8 @@ Elles doivent avoir un type.
 
 Exemple :
 
+```
 	int b = (int) 7.8
+```
 
 `(int)` convertit le nombre qui suit, un `double`, en entier `int`. Cela prend en compte la partie entière. Cela équivaut à `Integer.valueOf(7.8)`.
-
-

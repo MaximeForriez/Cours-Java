@@ -2,12 +2,16 @@
 
 ## L'opérateur d'affectation
 
+```
 	=
+```
 
 ## L'opérateur de concaténation
 
+```
 	+
-	
+```
+
 > [!NOTE]
 > Cela sert à assembler les chaînes de caractères.
 
@@ -69,33 +73,43 @@
 
 `+=` avec par exemple `A += X` équivaut à :
 
+```
 	A = ...
 	
 	A = A + X
+```
 
 `-=` avec par exemple `A -= X` équivaut à :
 
+```
 	A = ...
 	
 	A = A - X
+```
 
 `*=` avec par exemple `A *= X` équivaut à :
 
+```
 	A = ...
 	
 	A = A * X
+```
 
 `/=` avec par exemple `A /= X` équivaut à :
 
+```
 	A = ...
 	
 	A = A / X
+```
 
 `%=` avec par exemple `A %= X` équivaut à :
 
+```
 	A = ...
 	
 	A = A % X
+```
 
 > [!NOTE]
 > Tout le paragraphe est écrit en pseudo-code pour comprendre le processus, et non en code `Java`.
@@ -104,9 +118,11 @@
 
 `++` avec par exemple `A++` équivaut à :
 
+```
 	A = ...
 	
 	A = A + 1
+```
 
 > [!NOTE]
 > Tout le paragraphe est écrit en pseudo-code pour comprendre le processus, et non en code `Java`.
@@ -115,9 +131,11 @@
 
 `--` avec par exemple `A--` équivaut à :
 
+```
 	A = ...
 	
 	A = A - 1
+```
 
 > [!NOTE]
 > Tout le paragraphe est écrit en pseudo-code pour comprendre le processus, et non en code `Java`.

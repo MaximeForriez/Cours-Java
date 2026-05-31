@@ -6,7 +6,9 @@ Par convention, une constante est notée en majuscule.
 
 Exemple :
 
+```
 	final int NUMBER = 26;
+```
 
 > [!NOTE]
 > On peut lui ajouter d'autres modificateurs.

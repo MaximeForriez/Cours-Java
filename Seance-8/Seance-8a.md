@@ -16,11 +16,15 @@ En général, les objets sont déclarés dans la classe principale.
 
 La création d'un objet présuppose que la classe le créant existe. La classe correspond à un modèle, un plan. La création d'un objet est une **instanciation de classe**, il s'agit de donner vie au modèle, à l'objet.
 
+```
 	Objet variable = new Objet();
+```
 
 S'il existe des paramètres dans la classe, il faut les initialiser :
 
+```
 	Objet variable = new Object("nom", age);
+```
 
 **Les objets sont responsables de leur état**.
 
@@ -34,6 +38,7 @@ S'il existe des paramètres dans la classe, il faut les initialiser :
 
 Exemple :
 
+```
 	class Classe1
 	
 	{
@@ -55,6 +60,7 @@ Exemple :
 		}
 	
 	}
+```
 
 `Classe1()` est le **constructeur**. Il porte le nom de la classe ; c'est une fonction qui ne retourne rien et qui est dotée d'une syntaxe particulière.
 
@@ -72,6 +78,7 @@ Les **attributs** sont les variables appartenant à une classe. Ils se placent a
 
 Exemple :
 
+```
 	private String variable1;
 	
 	private String variable2;
@@ -85,12 +92,15 @@ Exemple :
 		this.variable2 = age;
 
 	}
+```
 
 Dans la méthode `public Objet(String nom, int age)`, les variables `nom` et `age` constituent des variables d'entrée permettant d'exécuter la classe lorsqu'elle est appelée.
 
 Dans la classe principale, dans la fonction `main()`, on pourra écrire :
 
+```
 	Objet variable = new Objet("nom", age);
+```
 
 Cette ligne crée un objet avec les paramètres souhaités dans l'ordre du constructeur de la classe instanciée.
 
@@ -120,6 +130,7 @@ La notion de retour `return` permet de renvoyer une information lorsque l'on app
 
 Exemple :
 
+```
 	public static int getNumberTwo()
 
 	{
@@ -127,6 +138,7 @@ Exemple :
 		return 2;
 
 	}
+```
 
 Le `int` dans `public static int getNumberTwo()` déclare le type de retour attendu par la fonction. `return 2` retourne bien un entier.
 
@@ -140,6 +152,7 @@ Le `int` dans `public static int getNumberTwo()` déclare le type de retour atte
 
 Les paramètres d'une méthode se déclarent dès le début. La variable a pour « durée de vie » la méthode. Dit autrement, si les méthodes sont conçues, il est inutile de supprimer la variable.
 
+```
 	public static void say(String msg)
 	
 	{
@@ -147,6 +160,7 @@ Les paramètres d'une méthode se déclarent dès le début. La variable a pour 
 		System.out.println(msg);
 	
 	}
+```
 
 Dans `main()`, il suffit d'écrire `say("Hello")` pour appeler la fonction.
 
@@ -160,6 +174,7 @@ La surcharge de méthodes consiste à créer plusieurs méthodes du même nom, m
 
 Exemple : la fonction somme `sum`
 
+```
 	public static int sum(int a, int b)
 
 	{
@@ -175,6 +190,7 @@ Exemple : la fonction somme `sum`
 		return a + b;
 	
 	}
+```
 
 La surcharge de méthodes est idéale pour des méthodes avec des types de variables différentes.
 

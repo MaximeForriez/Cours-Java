@@ -4,6 +4,7 @@
 
 Par convention, chaque fichier contient une classe et le nom du fichier doit porter le nom de classe. Étant donné qu'il s'agit d'une classe unique, il s'agit de la clase contenant la méthode `main()` dans laquelle sera ultérieurement placée toutes les instructions principales appelant les classes. 
 
+```
 	import java.lang.*
 
 	public class MainApp
@@ -18,6 +19,7 @@ Par convention, chaque fichier contient une classe et le nom du fichier doit por
 		}
 
 	}
+```
 
 `import` permet d'avoir accès aux répertoires de classes natives de `Java`. Par défaut, il s'agit de `java.lang.*`.
 
@@ -110,7 +112,9 @@ Il faut **impérativement** exécuter le code sous un terminal `Windows PowerShe
 
 2. Créer les classes en langage machine avec la commande :
 
+```
 	javac MainApp.java
+```
 
 Un fichier `*.class` est créé.
 
@@ -120,7 +124,9 @@ Un fichier `*.class` est créé.
 
 3. Exécuter le programme avec la commande :
 
+```
 	java Main App
+```
 
 On exécute toujours la fonction principale.
 

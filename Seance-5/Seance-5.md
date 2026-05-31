@@ -10,6 +10,7 @@
 
 Exemple :
 
+```
 	int value = 24;
 	
 	if(value == 24)
@@ -35,7 +36,8 @@ Exemple :
 		...
 	
 	}
-	
+```
+
 `else if` introduit des conditions intermédiaires facultatives.
 
 `else` introduit la condition finale et unique.
@@ -45,6 +47,7 @@ Exemple :
 
 Exemple :
 
+```
 	int value = 100;
 	
 	switch(option)
@@ -66,6 +69,7 @@ Exemple :
 		break;
 
 	}
+```
 
 `switch` teste un **nombre** ou une **chaîne de caractères** uniquement.
 
